@@ -1,0 +1,11 @@
+patient_id,first_name,last_name,date_of_birth,nhs_number,gender,phone_number,email,address,postcode,emergency_contact_name,emergency_contact_phone,registration_date,gp_surgery_id
+P001,John,Smith,1985-03-15,1234567890,M,07123456789,john.smith@email.com,"123 Oak Street, Birmingham",B1 1AA,Sarah Smith,07987654321,2020-01-15,S001
+P002,Emma,Johnson,1990-07-22,2345678901,F,07234567890,emma.johnson@email.com,"456 Pine Avenue, Birmingham",B2 2BB,Michael Johnson,07876543210,2019-05-10,S001
+P003,Robert,Williams,1975-11-08,3456789012,M,07345678901,robert.williams@email.com,"789 Maple Road, Solihull",B91 3CC,Lisa Williams,07765432109,2021-03-22,S002
+P004,Sarah,Brown,1988-09-14,4567890123,F,07456789012,sarah.brown@email.com,"321 Elm Close, Birmingham",B3 4DD,David Brown,07654321098,2020-08-05,S001
+P005,Michael,Davis,1982-12-03,5678901234,M,07567890123,michael.davis@email.com,"654 Birch Lane, Sutton Coldfield",B75 5EE,Jennifer Davis,07543210987,2019-11-18,S003
+P006,Linda,Miller,1978-04-27,6789012345,F,07678901234,linda.miller@email.com,"987 Cedar Grove, Birmingham",B4 6FF,Mark Miller,07432109876,2020-12-01,S002
+P007,James,Wilson,1992-01-19,7890123456,M,07789012345,james.wilson@email.com,"147 Willow Way, Birmingham",B5 7GG,Helen Wilson,07321098765,2021-02-14,S001
+P008,Patricia,Moore,1983-06-11,8901234567,F,07890123456,patricia.moore@email.com,"258 Ash Court, Erdington",B23 8HH,Thomas Moore,07210987654,2020-04-30,S003
+P009,Christopher,Taylor,1979-10-05,9012345678,M,07901234567,christopher.taylor@email.com,"369 Holly Drive, Birmingham",B6 9II,Amanda Taylor,07109876543,2019-09-12,S002
+P010,Elizabeth,Anderson,1987-08-30,0123456789,F,07012345678,elizabeth.anderson@email.com,"741 Poplar Street, Kings Heath",B14 0JJ,Richard Anderson,07098765432,2021-01-08,S001

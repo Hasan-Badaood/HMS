@@ -1,0 +1,13 @@
+appointment_id,patient_id,clinician_id,facility_id,appointment_date,appointment_time,duration_minutes,appointment_type,status,reason_for_visit,notes,created_date,last_modified
+A001,P001,C001,S001,2025-09-20,09:00,15,Routine Consultation,Scheduled,Annual health check,"Patient due for routine screening",2025-09-15,2025-09-15
+A002,P002,C009,S001,2025-09-20,10:30,30,Vaccination,Scheduled,Flu vaccination,"Annual flu jab appointment",2025-09-14,2025-09-14
+A003,P003,C003,S002,2025-09-21,14:00,15,Follow-up,Scheduled,Blood pressure check,"Follow-up for hypertension management",2025-09-16,2025-09-16
+A004,P004,C002,S001,2025-09-22,11:15,20,Urgent Consultation,Scheduled,Chest pain,"Patient reports chest discomfort",2025-09-17,2025-09-17
+A005,P005,C005,H001,2025-09-25,15:30,45,Specialist Consultation,Scheduled,Cardiology referral,"Referred for heart murmur investigation",2025-09-10,2025-09-10
+A006,P006,C004,S003,2025-09-23,09:45,15,Routine Consultation,Scheduled,Prescription review,"Review of chronic medications",2025-09-18,2025-09-18
+A007,P007,C001,S001,2025-09-24,16:00,15,Emergency,Cancelled,Sudden illness,"Patient cancelled due to recovery",2025-09-19,2025-09-20
+A008,P008,C010,S002,2025-09-26,10:00,30,Health Check,Scheduled,Well woman screening,"Routine cervical screening",2025-09-12,2025-09-12
+A009,P009,C007,H002,2025-09-27,13:00,60,Specialist Consultation,Scheduled,Orthopaedic assessment,"Knee pain investigation",2025-09-11,2025-09-11
+A010,P010,C002,S001,2025-09-28,08:30,20,Follow-up,Scheduled,Diabetes review,"3-month diabetes check-up",2025-09-13,2025-09-13
+A011,P001,C006,H001,2025-10-02,14:15,45,Specialist Consultation,Scheduled,Neurology referral,"Headache investigation",2025-09-20,2025-09-20
+A012,P003,C012,H002,2025-10-05,11:00,30,Specialist Consultation,Scheduled,Gastroenterology,"Digestive issues assessment",2025-09-18,2025-09-18
