@@ -193,6 +193,7 @@ public class MainFrame extends JFrame {
         }
 
         // launch
+
         SwingUtilities.invokeLater(() -> {
             MainFrame frame = new MainFrame();
             frame.setVisible(true);
