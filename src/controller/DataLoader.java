@@ -452,11 +452,12 @@ public class DataLoader {
     }
 
     // Load prescriptions - supports multiple CSV formats
+    // Load prescriptions
     public static List<Prescription> loadPrescriptions(String filename) {
         List<Prescription> prescriptions = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
-            String line = br.readLine();
+            String line = br.readLine(); // Skip header
             int lineNumber = 1;
 
             while ((line = br.readLine()) != null) {
@@ -465,34 +466,7 @@ public class DataLoader {
 
                 try {
                     List<String> data = parseCSVLine(line);
-
-                    // Check format type
-                    if (data.size() >= 12 && data.size() < 15) {
-                        // Format 1: appointment_id based
-                        String appointmentId = data.get(0).trim();
-                        String prescriptionId = "RX-" + appointmentId.substring(1);
-
-                        Prescription rx = new Prescription(
-                                prescriptionId,
-                                "P" + appointmentId.substring(1),
-                                "C" + appointmentId.substring(1),
-                                appointmentId,
-                                parseDate(data.get(1).trim()),
-                                data.get(2).trim(),
-                                data.get(3).trim(),
-                                data.get(4).trim(),
-                                parseInt(data.get(5).trim()),
-                                data.get(6).trim(),
-                                data.get(7).trim(),
-                                data.get(8).trim(),
-                                data.get(9).trim(),
-                                data.size() > 10 ? parseDate(data.get(10).trim()) : null,
-                                data.size() > 11 ? parseDate(data.get(11).trim()) : null
-                        );
-                        prescriptions.add(rx);
-
-                    } else if (data.size() >= 15) {
-                        // Format 2: full prescription data
+                    if (data.size() >= 15) {
                         Prescription rx = new Prescription(
                                 data.get(0).trim(),
                                 data.get(1).trim(),
@@ -507,13 +481,12 @@ public class DataLoader {
                                 data.get(10).trim(),
                                 data.get(11).trim(),
                                 data.get(12).trim(),
-                                data.size() > 13 ? parseDate(data.get(13).trim()) : null,
-                                data.size() > 14 ? parseDate(data.get(14).trim()) : null
+                                parseDate(data.get(13).trim()),
+                                parseDate(data.get(14).trim())
                         );
                         prescriptions.add(rx);
-
                     } else {
-                        System.err.println("Line " + lineNumber + " has unexpected format");
+                        System.err.println("Line " + lineNumber + " has incorrect format. Expected 15 columns, got " + data.size());
                     }
 
                 } catch (Exception e) {
