@@ -22,3 +22,14 @@
 [2026-01-07 15:21:46] Loaded referral: R008 patient: P002 status: Completed
 [2026-01-07 15:21:46] Loaded referral: R009 patient: P010 status: Pending
 [2026-01-07 15:21:46] Loaded referral: R010 patient: P006 status: Pending
+[2026-01-07 15:48:34] ReferralManager initialized
+[2026-01-07 15:48:34] Loaded referral: R001 patient: P005 status: Completed
+[2026-01-07 15:48:34] Loaded referral: R002 patient: P001 status: Pending
+[2026-01-07 15:48:34] Loaded referral: R003 patient: P003 status: Pending
+[2026-01-07 15:48:34] Loaded referral: R004 patient: P009 status: In Progress
+[2026-01-07 15:48:34] Loaded referral: R005 patient: P007 status: Pending
+[2026-01-07 15:48:34] Loaded referral: R006 patient: P004 status: New
+[2026-01-07 15:48:34] Loaded referral: R007 patient: P008 status: New
+[2026-01-07 15:48:34] Loaded referral: R008 patient: P002 status: Completed
+[2026-01-07 15:48:34] Loaded referral: R009 patient: P010 status: Pending
+[2026-01-07 15:48:34] Loaded referral: R010 patient: P006 status: Pending

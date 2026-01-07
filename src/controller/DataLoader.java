@@ -451,7 +451,6 @@ public class DataLoader {
         }
     }
 
-    // Load prescriptions - supports multiple CSV formats
     // Load prescriptions
     public static List<Prescription> loadPrescriptions(String filename) {
         List<Prescription> prescriptions = new ArrayList<>();
